@@ -3,7 +3,7 @@ package thinkingJava.dynamicProxy.jdk;
 /**
  * Created by lixiaojian on 2017/4/12.
  */
-public class Implementation implements SomeMethods {
+public class SomeMethodsImpl implements SomeMethods {
     @Override
     public void boring1() {
         System.out.println("boring1");
