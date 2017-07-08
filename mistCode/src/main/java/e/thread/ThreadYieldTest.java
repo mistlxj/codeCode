@@ -4,7 +4,7 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Created by lixiaojian on 2017/7/7.
- * @des Thread.yield()会引起cpu的重新竞争。
+ * @des Thread.yield()会引起cpu的重新竞争,所有线程,包括自己都会重新竞争CPU
  */
 public class ThreadYieldTest extends Thread{
 
