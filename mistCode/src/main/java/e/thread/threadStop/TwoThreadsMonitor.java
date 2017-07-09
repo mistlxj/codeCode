@@ -1,4 +1,4 @@
-package e.currency;
+package e.thread.threadStop;
 
 /**
  * Created by lixiaojian on 2017/7/6.
@@ -22,7 +22,6 @@ public class TwoThreadsMonitor {
     }
 
     static class T1 implements Runnable {
-        @Override
         public void run() {
             int cnt = 10;
             while (cnt > 0) {
@@ -39,9 +38,8 @@ public class TwoThreadsMonitor {
     }
 
     static class T2 implements Runnable {
-        @Override
         public void run() {
-            while (!mutex) { //监听共享变量，一直监听，知道状态改变，线程退出
+            while (!mutex) { //s监听共享变量，一直监听，知道状态改变，线程退出
                 int i = 0;
                 i++;
             }
