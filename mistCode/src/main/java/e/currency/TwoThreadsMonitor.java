@@ -5,7 +5,7 @@ package e.currency;
  * @Desc 两个线程，利用共享变量mutex 来实现一个线程退出
  */
 public class TwoThreadsMonitor {
-    private static boolean  mutex = false;
+    private static volatile boolean  mutex = false;
 
     public static void main(String[] args) throws InterruptedException{
         Thread t1 = new Thread(new T1());
