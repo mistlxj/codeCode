@@ -5,11 +5,10 @@ import org.springframework.core.LocalVariableTableParameterNameDiscoverer;
 
 /**
  * Created by lixiaojian on 2017/3/27.
+ * @des 利用spring封装的ASM框架获取方法的参数名称
  */
 public class LocalVariableDiscoverer {
     private static final LocalVariableTableParameterNameDiscoverer parameterNameDiscoverer = new LocalVariableTableParameterNameDiscoverer();
-
-
 
     /**
      * 获取方法所有参数名

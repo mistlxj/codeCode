@@ -8,6 +8,7 @@ import java.util.Map;
 
 /**
  * Created by lixiaojian on 2017/7/19.
+ * @des 利用反射获取类的私有属性（静态和非静态），可以指定属性名称获取
  */
 public class GetPrivateFiledTest {
 
