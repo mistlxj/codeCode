@@ -1,10 +1,14 @@
-package thinkingJava.genericClass;
+package thinkingJava.generic;
+
+
+import thinkingJava.generic.model.CountInteger;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created by lixiaojian on 2017/4/11.
+ * @des 利用泛型创建List 并填充
  */
 public class FilledList<T> {
     private Class<T> type;
