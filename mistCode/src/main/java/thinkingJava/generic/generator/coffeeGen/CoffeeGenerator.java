@@ -22,7 +22,7 @@ public class CoffeeGenerator implements Generator<Coffee> , Iterable<Coffee> {
 
     public CoffeeGenerator() {};
 
-    public CoffeeGenerator(int size) {
+    public CoffeeGenerator(int size) { //末端哨兵,用于循环条件截止
         this.size = size;
     }
 
