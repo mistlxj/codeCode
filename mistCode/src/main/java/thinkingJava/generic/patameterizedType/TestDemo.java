@@ -1,10 +1,7 @@
 package thinkingJava.generic.patameterizedType;
 
-import com.zuche.framework.common.SpringApplicationContext;
-
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
-import java.util.Map;
 
 /**
  * Created by lixiaojian on 2017/8/10.
