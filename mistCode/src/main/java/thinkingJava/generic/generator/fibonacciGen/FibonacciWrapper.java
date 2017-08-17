@@ -11,7 +11,7 @@ public class FibonacciWrapper extends Fibonacci implements Iterable<Integer>{
         this.n = n;
     }
 
-
+    @Override
     public Iterator<Integer> iterator() {
         return new Iterator<Integer>() {
             public boolean hasNext() {
@@ -23,9 +23,7 @@ public class FibonacciWrapper extends Fibonacci implements Iterable<Integer>{
                 return FibonacciWrapper.this.next();
             }
 
-            public void remove() {
-
-            }
+            public void remove() {}
         };
     }
 

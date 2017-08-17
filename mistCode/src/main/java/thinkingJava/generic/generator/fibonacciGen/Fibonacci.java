@@ -6,6 +6,7 @@ import thinkingJava.generic.generator.Generator;
  * Created by zhuxuemei on 17/8/13.
  */
 public class Fibonacci implements Generator<Integer> {
+    @Override
     public Integer next() {
         return fib(cnt++);
     }
